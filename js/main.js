@@ -55,10 +55,10 @@ function main(err,session) {
             memory: null
         },
         stats: {
-            stealth: 999,
-            might: 999,
-            magic: 999,
-            charm: 999
+            stealth: 1,
+            might: 1,
+            magic: 1,
+            charm: 1
         },
         statprogress: {
             stealth: 0,
