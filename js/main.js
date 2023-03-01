@@ -44,7 +44,7 @@ function main(err,session) {
     var player = {
         username: username,
         area: "dormaus_entrance",
-        dust: 0,
+        dust: 9999999999,
         description: "This adventurer is an ordinary human.",
         equipment: {
             head: null,
@@ -55,10 +55,10 @@ function main(err,session) {
             memory: null
         },
         stats: {
-            stealth: 1,
-            might: 1,
-            magic: 1,
-            charm: 1
+            stealth: 99,
+            might: 99,
+            magic: 99,
+            charm: 99
         },
         statprogress: {
             stealth: 0,
